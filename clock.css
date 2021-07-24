@@ -1,0 +1,69 @@
+html{
+    font-size: 62.5%;
+}
+body
+{
+    height:100vh;
+    background-image: linear-gradient(0deg,black,rgb(85, 85, 134));
+}
+.analog_clock{
+    border:2px solid black;
+    background-image: url('images.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 50vmin;
+    height: 50vmin;
+    margin:auto;
+    margin-top:10vmin;
+    /* display: flex;*/
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+
+#hour{
+    height:8vmin;
+    width:5px;
+    background-color: red;
+    position: absolute;
+    left: calc(50% - 2.5px);
+    top: 27vmin;
+    transform-origin: bottom;
+    
+}
+#minute{
+    height:15vmin;
+    width:2.5px;
+    background-color: black;
+    position: absolute;
+    left: calc(50% - 1.25px);
+    top: 20vmin;
+    transform-origin: bottom;
+
+}
+#second{
+    height: 18.7vmin;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    left: calc(50% - 0.5px);
+    top: 16.3vmin;
+    transform-origin: bottom;
+
+}
+.digital_clock{
+    height: 20vmin;
+    width: 80vmin;
+    margin:auto;
+    margin-top: 10vmin;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content{
+    color:white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10vmin;
+}
