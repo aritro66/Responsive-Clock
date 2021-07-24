@@ -66,7 +66,7 @@ body
   animation-name: change1;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
     
 
 }
@@ -102,7 +102,7 @@ body
     animation-name: change2;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
 
 
 }
