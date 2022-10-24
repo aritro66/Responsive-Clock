@@ -4,7 +4,20 @@ html{
 body
 {
     height:100vh;
-    background-image: linear-gradient(0deg,black,rgb(29, 153, 185));
+    /* background-image: linear-gradient(0deg,black,rgb(29, 153, 185)); */
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg);
+    display: flex;
+    justify-content: center;
+
+}
+
+.body__wrapper{
+    backdrop-filter: blur(12px) saturate(200%);
+    -webkit-backdrop-filter: blur(12px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    display: inline-block;  
 }
 .analog_clock{
     border:2px solid black;
@@ -82,6 +95,8 @@ body
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  margin-left: 20px;
+  margin-right: 20px;
     
 
 }
